@@ -1,6 +1,6 @@
 const express = require('express');
 const passport = require('passport');
-const User = require('../models/user');
+const User = require('../models/User.js');
 const router = express.Router();
 
 // GET: Signup form
